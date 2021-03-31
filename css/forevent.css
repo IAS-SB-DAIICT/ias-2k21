@@ -1,0 +1,73 @@
+.eventTab{
+  margin: 20px 0px;
+}
+
+.tabs .active{
+    background-color:lightgrey!important;
+    color:black !important;
+    font-weight: 500;
+  }
+
+.arrowOpen{
+  float: right;
+  width: 15px;
+  font-size: 15px;
+}
+
+.collapsible-header{
+  position: relative;
+  background-color: white;
+  color:black
+}
+.collapsible-header:hover{
+  position: relative;
+  background-color: whitesmoke;
+  color:black
+}
+
+.collapsibleHeaderTitle{
+  padding: 0px 70px 0px 0px;
+}
+.collapsible-body{
+  background-color: whitesmoke;
+  color:black;
+}
+.centerThis{
+  display: block;
+  text-align: center;
+}
+
+.boldThis{
+  font-weight: 400%!important;
+}
+
+.arrowDown{
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.arrowUp{
+  position: absolute;
+  right: 10px;
+  display: none;
+  width: 20px;
+  height: 20px;
+}
+
+.notClicked .arrowUp{
+  display: none;
+}
+
+.notClicked .arrowDown{
+  display: block;
+}
+
+.clicked .arrowDown{
+  display: none;
+}
+
+.clicked .arrowUp{
+  display: block;
+}

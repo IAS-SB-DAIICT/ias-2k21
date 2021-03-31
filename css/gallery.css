@@ -1,0 +1,57 @@
+/* Rhythm's simple gallery */
+
+.galleryWrapper{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.mySlider{
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+}
+
+#sliderContent img{
+  width: 100%;
+  height: 70vh;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+#sliderContent img:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  transition: 0.3s;
+}
+
+.prev,.next{
+  width: 20px;
+  height: 20px;
+}
+
+#imageInfo{
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 150%;
+  color: #212f3c;
+}
+
+.sliderRightArrow{
+  width: 40px;
+  height:40px;
+  float: right;
+}
+
+.sliderLeftArrow{
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+@media (max-width: 620px){
+  #sliderContent img{
+    height: 250px;
+  }
+}

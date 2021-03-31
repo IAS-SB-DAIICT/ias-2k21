@@ -1,0 +1,129 @@
+#mainContent{
+  width: 100%;
+  height: auto;
+}
+.makeBlue   /* definition of makeblue Class is made custom and thus it over-rides its original definition due to !important word in order to set the colour contrast.*/
+{
+  color:darkblue !important;
+  font-weight: bold;
+}
+.memberWrapper{
+  width: 50%;
+  float: left;
+  margin: 15px 0px;
+}
+
+.centerThis{
+  display: block;
+  margin: 0 auto!important;
+}
+
+.memberCard{
+  width: 60%;
+  padding: 8px;
+  margin: 4px auto;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.memberCard h4{
+  display: block;
+  text-align: center;
+}
+
+.excommTab{
+  margin: 20px 0px;
+}
+
+.tabs .active{
+  background: #ececec!important;
+}
+
+.tabs a{
+  color: grey!important;
+  font-weight: 500;
+}
+
+.memberCard img{
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* do not change this width ever to keep it mobile responsive*/
+  height: 250px;
+}
+
+.vedantPhoto{
+  width: 240px!important;
+  height: 250px!important;
+}
+.memberCard p{
+  display: block;
+  text-align: center;
+}
+
+.memberName{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.wholeWrapper{
+  font-size: 30px;
+  font-weight: bold;
+  color:darkblue;
+  border: black solid 5px ;
+  border-radius: 15px;
+  margin-left:10%;
+  width: 81%;
+  clear: both;
+  padding-left:4px;
+  padding-right:4px;
+}
+
+.wholeWrapper h4{
+  display: block;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.wholeWrapper h3{
+  display: block;
+  text-align: center;
+  margin: 20px 0px;
+  font-weight: 300;
+  font-family: 'Arvo' , serif;
+}
+
+.page-footer{
+  clear: both!important;
+}
+
+@media (max-width: 800px) {
+  .memberCard h4{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .wholeWrapper h3{
+    font-size: 24px;
+  }
+
+  .memberName{
+      font-size: 18px;
+  }
+
+}
+
+@media (max-width:680px) {
+  .memberWrapper{
+    width: 100%;
+    margin: 15px 0px;
+  }
+
+  .memberEmail{
+    font-size: 14px;
+  }
+
+  .vedantPhoto{
+    width: 200px!important;
+    height: 150px!important;
+  }
+}
